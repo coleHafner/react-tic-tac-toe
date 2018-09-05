@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 import Game from './components/Game';
 import './index.css';
 
@@ -7,6 +7,6 @@ import './index.css';
 // ========================================
 
 ReactDOM.render(
-    <Game />,
-    document.getElementById('root')
+	<Game />,
+	document.getElementById('root'),
 );
